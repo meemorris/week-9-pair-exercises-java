@@ -1,0 +1,74 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "header links"
+    "main main"
+    "popsicle-race refresh"
+    "footer footer";
+    gap: 10px;
+    margin: 0 30px;
+}
+header{
+    grid-area: header;
+    display: flex;
+
+}
+header img{
+    margin-top: 10px;
+}
+
+nav {
+    grid-area: links;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    grid-area: main;
+    display: flex;
+}
+#popsicle-race{
+    grid-area: popsicle-race;
+    display: flex;
+
+}
+#refresh{
+    grid-area: refresh;
+}
+footer{
+    grid-area: footer;
+}
+h2 ul li{
+    display: flex;
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main li{
+    margin-bottom: 15px;
+}
+
+.popsicle{
+    display: flex;
+    flex-direction: column;
+}
+.popsicle h2{
+   align-self: center;
+}
+.popsicle p {
+    margin-right: 15px;
+}
+#refresh{
+    display: flex;
+    flex-direction: column;
+}
+.summer, .store-button{
+    align-self: center;
+}

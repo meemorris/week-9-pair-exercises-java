@@ -54,4 +54,20 @@ main, section, footer {
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+    list-style: none;
+}
+.store-button a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main span{
+    font-style: italic;
 }
