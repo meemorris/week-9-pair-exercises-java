@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact-Us</title>
     <link rel="stylesheet" href="styles.css" /> 
-    <link rel="stylesheet" href="layout.css" text="type/css" /> 
+    <link rel="stylesheet" href="contact-us-layout.css" text="type/css" /> 
 </head>
 <body>
     <header>
@@ -27,7 +27,8 @@
             <label for="name">Name:</label>
             <input id="name" name="name" type="text" />
         </div>
-        <div>
+        <div class="search_categories">
+        <div class="select">
             <label for="noteriety">How did you hear of us?</label>
             <select id="noteriety" name="noteriety">
                 <option value="popsicle-monthly">Popsicle Monthly</option>
@@ -35,15 +36,16 @@
             </select>
             <div>
                 <label for="color">What color is your favorite popsicle?</label>
-                <input id="color" name="color" type="color" />
+                <input id="color" name="color" type="color" value="#00afef" />
             </div>
             <div>
                 <label for="comments">Please let us know any comments you have:</label>
-                <textarea name="comments" rows="6" cols="15" ></textarea>
+                <textarea name="comments" rows="6" cols="10" ></textarea>
             </div>
             <div>
-                <input type="submit" />
+                <input class="submit" type="submit" />
             </div>
+        </div>
         </div>
     </main>
 

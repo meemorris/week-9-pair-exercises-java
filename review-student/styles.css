@@ -16,6 +16,9 @@ nav ul li {
     text-align: center;
     line-height: 50px;
 }
+nav ul li:hover{
+    background-color:#D39713;
+}
 
 header img {
     height: 100px;
@@ -70,4 +73,18 @@ nav ul li a{
 }
 .main span{
     font-style: italic;
+}
+.submit{
+    width: 12%;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #00afef;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+}
+.store-button:hover{
+    background-color:#D39713;
 }
