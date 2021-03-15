@@ -33,9 +33,22 @@ main{
 }
 #popsicle-race{
     grid-area: popsicle-race;
-    display: flex;
-
+        display: grid;
+        grid-template-areas:
+            "image header"
+            "image description";
+        justify-items: center;
+    }
+#popsicle-race img{
+    grid-area: image;
 }
+#popsicle-race h2{
+    grid-area: header;
+}
+#popsicle-race p{
+    grid-area: description;
+}
+
 #refresh{
     grid-area: refresh;
 }
@@ -91,29 +104,12 @@ h2 ul li{
     main img{
         width: 100%;
     }
-    /* #popsicle-race{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-        "image h2"
-        "p p";
-    }
-    #popsicle-race img{
-        grid-area: image;
-    }
-    #popsicle-race h2{
-        grid-area: h2;
-    }
-    #popsicle-race p{
-        grid-area: p;
-    } */
-    .popsicle{
-        flex-direction: row;
-        
-    }
     #popsicle-race{
-        flex-wrap: wrap;
-        flex-direction: column;
+        grid-template-areas:
+        "image header"
+        "description description";
     }
-
+    .summer{
+       flex-wrap: nowrap;
+    }
 }

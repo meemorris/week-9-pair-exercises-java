@@ -88,3 +88,18 @@ nav ul li a{
 .store-button:hover{
     background-color:#D39713;
 }
+main div {
+    padding-top: 20px;
+}
+main label {
+    display: block;
+    padding-bottom: 5px;
+}
+main input {
+    height: 25px;
+    width: 300px;
+}
+main select {
+    height: 30px;
+    width: 307px;
+}
